@@ -14,7 +14,7 @@ export default class Queue {
   }
   dequeue() {
     if(this.isEmpty()){
-      return undefinedl;
+      return undefined;
     }
     const result = this.items[this.lowestCount];
     delete this.items[this.lowestCount];

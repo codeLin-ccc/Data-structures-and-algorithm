@@ -14,4 +14,4 @@
 
 ## 在node中使用 es6 语法
 - 在Node.js 中使用原生的ES2015导入功能。
-- 在node 命名后加 --experimental-modules 来执行代码
+- 在node 命名后加 --experimental-modules 来执行代码 且文件后缀为 .mjs
