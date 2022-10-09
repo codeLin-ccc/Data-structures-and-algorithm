@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #box {
+      width: 1000px;
+      height: 1000px;
+      border: 1px solid black;
+    }
+
+    #child {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+    /*1、-- flex布局 */
+    /* .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } */
+
+    /* .box {
+      display: flex;
+    }
+    .child {
+      margin: auto;
+    } */
+
+    /*2、-- 定位 */
+    /* .box {
+      position: relative;
+    } */
+    /* 偏移 */
+    /* .child {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    } */
+
+    /* .child {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    } */
+
+    /*3、-- grid布局 */
+    /* .box {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+    } */
+
+    /*--- 子元素 */
+    /* .box {
+      display: grid;
+    }
+    .child {
+      margin: auto;
+    } */
+
+    /*4、 表格 */
+    /* 子元素如果是块级元素，直接使用左右margin:auto实现水平居中。如果是行内元素，给容器设置text-align: center */
+    .box {
+      display: table-cell;
+      /* 垂直 */
+      vertical-align: middle;
+      /* 行内元素水平 */
+      text-align: center; 
+    }
+    .child {
+      /* 块级水平 */
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box" class="box">
+    <div id="child" class="child">我是子容器</div>
+  </div>
+</body>
+
+</html>
