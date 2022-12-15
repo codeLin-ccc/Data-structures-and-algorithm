@@ -1,0 +1,23 @@
+{
+  "name": "data-structures-and-algorithm",
+  "version": "1.0.0",
+  "description": "学习数据结构与算法\r ## markdown 语法\r *斜体* 或 _斜体_\r **粗体** 或 __粗体__\r ***加粗斜体***\r ~~删除线~~\r ++下划线++\r ==背景高亮==\r * 无序列表项 一\r + 无序列表项 二\r - 无序列表项 三\r 1. 有序列表项 一",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeLin-ccc/Data-structures-and-algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeLin-ccc/Data-structures-and-algorithm/issues"
+  },
+  "homepage": "https://github.com/codeLin-ccc/Data-structures-and-algorithm#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
